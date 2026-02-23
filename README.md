@@ -22,3 +22,18 @@ After cleaning, I generated a **Correlation Heatmap** to identify which health f
 3. Open `your_filename.ipynb` to see the full analysis.
 
 ![Heart Disease Trends](./visuals/age_vs_heart_disease.png)
+
+📈 Executive Summary: Cardiovascular Risk Analysis
+Objective: To identify the primary demographic and clinical drivers of heart disease to assist in early patient screening.
+
+Key Findings from the Data:
+The "Risk Threshold" (Age): Analysis shows a significant surge in heart disease cases starting at age 50. Patients in the 55–65 age bracket represent the highest density of positive cases.
+
+Gender Disparity: In this specific dataset, Male patients showed a notably higher frequency of heart disease compared to Female patients. This suggests that gender-specific screening protocols may be necessary.
+
+Data Quality: During the preprocessing phase, I identified and removed several "0" values in the Cholesterol column. By cleaning these outliers, the correlation between high cholesterol and heart disease became statistically clearer.
+
+Recommendations:
+Targeted Screening: Hospitals should prioritize cardiovascular check-ups for male patients over the age of 50.
+
+Preventative Care: Since risk increases sharply after 50, preventative lifestyle programs should be introduced to patients in their 40s.
