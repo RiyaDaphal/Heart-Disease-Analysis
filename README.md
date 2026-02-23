@@ -21,4 +21,4 @@ After cleaning, I generated a **Correlation Heatmap** to identify which health f
 2. Run `pip install pandas seaborn matplotlib`.
 3. Open `your_filename.ipynb` to see the full analysis.
 
-![Heatmap](visuals/correlation_heatmap.png)
+![Heart Disease Trends](./visuals/age_vs_heart_disease.png)
